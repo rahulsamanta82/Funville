@@ -28,7 +28,7 @@ html {
   width: 280px;
 }
 #instructions {
-  width: 450px;
+  width: 470px;
   height: 50px;
   margin: 10px auto;
   font-size: 30px;
@@ -42,6 +42,7 @@ html {
 }
 #fruitcontainer { 
   background: url(https://raw.githubusercontent.com/Saumya-07/Fruit-Slicer/master/images/wood-bg2.jpg);
+  /* background: url(https://github.com/rahulsamanta82/Funville/blob/main/wood-bg2.jpg); */
   background-size: cover;
   width: 650px;
   height: 450px;
