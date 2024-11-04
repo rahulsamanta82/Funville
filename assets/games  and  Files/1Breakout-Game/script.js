@@ -12,9 +12,6 @@ const secondaryColor = getComputedStyle(
 let score = 0;
 const brickRowCount = 9;
 const brickColumnCount = 5;
-
-// Reference: https://stackoverflow.com/questions/34772957/how-to-make-canvas-responsive
-// https://stackoverflow.com/questions/39771732/drawing-to-responsive-canvas-that-is-100-width-and-height
 const heightRatio = 0.75;
 canvas.height = canvas.width * heightRatio;
 ctx.canvas.width = 800;

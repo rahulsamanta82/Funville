@@ -12,6 +12,14 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.head{
+  text-align: center;
+  color: rgb(8, 103, 116);
+  margin-top: 50px;
+  /* shape-margin: 20px; */
+
+
+}
 h1 {
   color: #353232;
 }
