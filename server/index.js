@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(cors())
 app.use(bodyParser.json())
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/user-auth').then(() => console.log('Connected to MongoDB'))
+mongoose.connect('mongodb+srv://apple825030:Rsamanta@2003@cluster0.lnv2i.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0').then(() => console.log('Connected to MongoDB'))
   .catch(err => console.log(err));
 
 // Middleware
